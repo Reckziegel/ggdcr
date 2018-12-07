@@ -2,24 +2,24 @@
 % Please edit documentation in R/maddison_project.R
 \name{maddison_project}
 \alias{maddison_project}
-\title{Download the Maddison Project Database}
+\title{Maddison Project Database}
 \usage{
 maddison_project()
 }
 \value{
-A tidy \code{tibble} containing 6 columns.  columns \code{iso_code}, \code{country}, \code{year}, \code{key}, \code{value}, \code{i_cig} and \code{i_bm}.
+A tidy \code{tibble} containing 6 columns.
 
 The \code{key} column agregates:
 
 \itemize{
 
-  \item \code{real_gdp_pc}: Real GDP per capita (US$ 2011) with multiple benchmarks. This is a suitable indicator for cross-country income comparisons
-  \item \code{real_gdp_pc_2011}: Real GDP per capita (US$ 2011 benchmark), which is advisable for cross-country growth comparisons
+  \item \code{real_gdp_pc}: Real GDP per capita (US$ 2011) with multiple benchmarks. This is a suitable indicator for cross-country income comparisons;
+  \item \code{real_gdp_pc_2011}: Real GDP per capita (US$ 2011 benchmark), which is advisable for cross-country growth comparisons; and
   \item \code{pop}: population in thousands.
 
 }
 
-Infortunatly, for some periods of time the data had to be estimated. \code{i_cig} and \code{i_bm} provide the type of method used, when this case applies. \code{NA} means that no method was need.
+Unfortunately, for some periods of time the data had to be estimated. In those cases, \code{i_cig} and \code{i_bm} provide the type of method used. \code{NA} means that no method was need.
 }
 \description{
 The 2018 Maddison Project Database provides information on comparative economic growth and income levels over the very long run. This database covers 169 countries up to 2016.
@@ -31,8 +31,9 @@ maddison_project()
 \references{
 \itemize{
 
-  \item "strong{Maddison Project Database}, version 2018. Bolt, Jutta, Robert Inklaar, Herman de Jong and Jan Luiten van Zand (2018), \emph{"Rebasing Maddison: new income comparisons and the shape of long-run economic development"}, \href{https://www.rug.nl/ggdc/historicaldevelopment/maddison/research}{Maddison Project Working Paper 10}
+  \item \strong{Maddison Project Database}, version 2018. Bolt, Jutta, Robert Inklaar, Herman de Jong and Jan Luiten van Zand (2018), \emph{"Rebasing Maddison: new income comparisons and the shape of long-run economic development"}, \href{https://www.rug.nl/ggdc/historicaldevelopment/maddison/research}{Maddison Project Working Paper 10}
 
   \item For the references to the original research on individual countries, see Appendix A of \strong{Bolt et al. (2018)}.
+
 }
 }

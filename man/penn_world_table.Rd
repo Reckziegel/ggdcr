@@ -2,7 +2,7 @@
 % Please edit documentation in R/penn_world_table.R
 \name{penn_world_table}
 \alias{penn_world_table}
-\title{Download the Penn World Table 9.0}
+\title{Penn World Table 9.0}
 \usage{
 penn_world_table()
 }
@@ -10,7 +10,7 @@ penn_world_table()
 A tidy \code{tibble}.
 }
 \description{
-Downloads the data of PWT 9.0 that has been released on June 9 2016, as available on \url{www.ggdc.net/pwt}.
+Downloads the data of PWT 9.0 that has been released on June 9 2016, as available at \url{www.ggdc.net/pwt}.
 }
 \details{
 Penn World Table (PWT) version 9.0 is a database with information on relative levels of income, output, input and productivity, covering 182 countries between 1950 and 2014.
@@ -87,4 +87,7 @@ Different indicators are grouped in the column \code{key} and are deffined as fo
 \examples{
 library(ggdcr)
 penn_world_table()
+}
+\references{
+Feenstra, Robert C., Robert Inklaar and Marcel P. Timmer (2015), \emph{"The Next Generation of the Penn World Table"}, American Economic Review, 105(10), 3150-3182, available for download at \url{www.ggdc.net/pwt}.
 }

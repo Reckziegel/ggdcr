@@ -1,6 +1,6 @@
 #' Penn World Table 9.0
 #'
-#' Downloads the data of PWT 9.0 that has been released on June 9 2016, as available on \url{www.ggdc.net/pwt}.
+#' Downloads the data of PWT 9.0 that has been released on June 9 2016, as available at \url{www.ggdc.net/pwt}.
 #'
 #' Penn World Table (PWT) version 9.0 is a database with information on relative levels of income, output, input and productivity, covering 182 countries between 1950 and 2014.
 #'
@@ -85,6 +85,10 @@
 #'
 #' @importFrom rlang .data
 #' @importFrom magrittr %>%
+#'
+#' @references
+#'
+#' Feenstra, Robert C., Robert Inklaar and Marcel P. Timmer (2015), \emph{"The Next Generation of the Penn World Table"}, American Economic Review, 105(10), 3150-3182, available for download at \url{www.ggdc.net/pwt}.
 #'
 #' @export
 #'

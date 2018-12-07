@@ -9,8 +9,8 @@
 #'
 #' \itemize{
 #'
-#'   \item \code{real_gdp_pc}: Real GDP per capita (US$ 2011) with multiple benchmarks. This is a suitable indicator for cross-country income comparisons
-#'   \item \code{real_gdp_pc_2011}: Real GDP per capita (US$ 2011 benchmark), which is advisable for cross-country growth comparisons
+#'   \item \code{real_gdp_pc}: Real GDP per capita (US$ 2011) with multiple benchmarks. This is a suitable indicator for cross-country income comparisons;
+#'   \item \code{real_gdp_pc_2011}: Real GDP per capita (US$ 2011 benchmark), which is advisable for cross-country growth comparisons; and
 #'   \item \code{pop}: population in thousands.
 #'
 #' }
@@ -24,9 +24,10 @@
 #'
 #' \itemize{
 #'
-#'   \item "strong{Maddison Project Database}, version 2018. Bolt, Jutta, Robert Inklaar, Herman de Jong and Jan Luiten van Zand (2018), \emph{"Rebasing Maddison: new income comparisons and the shape of long-run economic development"}, \href{https://www.rug.nl/ggdc/historicaldevelopment/maddison/research}{Maddison Project Working Paper 10}
+#'   \item \strong{Maddison Project Database}, version 2018. Bolt, Jutta, Robert Inklaar, Herman de Jong and Jan Luiten van Zand (2018), \emph{"Rebasing Maddison: new income comparisons and the shape of long-run economic development"}, \href{https://www.rug.nl/ggdc/historicaldevelopment/maddison/research}{Maddison Project Working Paper 10}
 #'
 #'   \item For the references to the original research on individual countries, see Appendix A of \strong{Bolt et al. (2018)}.
+#'
 #' }
 #'
 #' @export
