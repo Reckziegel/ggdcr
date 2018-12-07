@@ -1,9 +1,9 @@
 Package: ggdcr
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Downloads data from the Groningen Growth and Development Centre (GGDC)
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
+Author: Bernardo Reckziegel
+Maintainer: Bernardo Reckziegel <bernardo_cse@hotmail.com>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
 License: What license is it under?

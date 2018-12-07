@@ -1,6 +1,6 @@
-#' Download the Penn World Table 9.0
+#' Penn World Table 9.0
 #'
-#' Downloads the data of PWT 9.0, as available on \url{www.ggdc.net/pwt}.
+#' Downloads the data of PWT 9.0 that has been released on June 9 2016, as available on \url{www.ggdc.net/pwt}.
 #'
 #' Penn World Table (PWT) version 9.0 is a database with information on relative levels of income, output, input and productivity, covering 182 countries between 1950 and 2014.
 #'
@@ -109,7 +109,8 @@ penn_world_table <- function() {
     dplyr::select(.data$countrycode:.data$year, .data$key, .data$value, dplyr::everything())
 
   tbl %>%
-    dplyr::mutate_if(purrr::is_character, forcats::as_factor) %>%
+    dplyr::mutate_if(purrr::is_character,      forcats::as_factor) %>%
+    dplyr::mutate_if(~ class(.) == "labelled", forcats::as_factor) %>%
     dplyr::rename(iso_code = "countrycode")
 
 }

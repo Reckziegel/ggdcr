@@ -10,7 +10,7 @@ penn_world_table()
 A tidy \code{tibble}.
 }
 \description{
-Downloads the data of PWT 9.0, as available on \url{www.ggdc.net/pwt}.
+Downloads the data of PWT 9.0 that has been released on June 9 2016, as available on \url{www.ggdc.net/pwt}.
 }
 \details{
 Penn World Table (PWT) version 9.0 is a database with information on relative levels of income, output, input and productivity, covering 182 countries between 1950 and 2014.
@@ -65,12 +65,12 @@ Different indicators are grouped in the column \code{key} and are deffined as fo
 \strong{Shares in CGDPo}
 
 \itemize{
-  \item \code{}: Share of household consumption at current PPPs
-  \item \code{}: Share of gross capital formation at current PPPs
-  \item \code{}: Share of government consumption at current PPPs
-  \item \code{}: Share of merchandise exports at current PPPs
-  \item \code{}: Share of merchandise imports at current PPPs
-  \item \code{}: Share of residual trade and GDP statistical discrepancy at current PPPs
+  \item \code{csh_c}: Share of household consumption at current PPPs
+  \item \code{csh_i}: Share of gross capital formation at current PPPs
+  \item \code{csh_g}: Share of government consumption at current PPPs
+  \item \code{csh_x}: Share of merchandise exports at current PPPs
+  \item \code{csh_m}: Share of merchandise imports at current PPPs
+  \item \code{csh_r}: Share of residual trade and GDP statistical discrepancy at current PPPs
 }
 
 \strong{Price levels, expenditure categories and capital}
