@@ -17,7 +17,7 @@ The GGDC 10-Sector Database gives sector detail to the historical macro data in 
 
 It should be stressed that the estimates for the total economy are aggregated across sectors and that, because of adjustments at the sector level, the aggregate results are not fully consistent with the national accounts aggregates (see the sources and methods document). Also note that value added data in this database are expressed in local currencies.
 
-The sectors covered are in the column \code{key} and include:
+The sectors covered are in the \code{key} column and include:
 
 \itemize{
 
