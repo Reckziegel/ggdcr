@@ -1,7 +1,7 @@
 Package: ggdcr
 Type: Package
 Title: Downloads data from the Groningen Growth and Development Centre (GGDC)
-Version: 0.1.0
+Version: 0.1.0.9000
 Author: Bernardo Reckziegel
 Maintainer: Bernardo Reckziegel <bernardo_cse@hotmail.com>
 Description: Get Long-Term Macroeconomic for Output, Prices, Capital Stocks, and Employment from GGDC.
