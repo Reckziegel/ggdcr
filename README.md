@@ -5,7 +5,7 @@ ggdcr
 
 [![Travis build status](https://travis-ci.org/Reckziegel/ggdcr.svg?branch=master)](https://travis-ci.org/Reckziegel/ggdcr)
 
-The goal of `ggdcr` is to make easier to download long-term macroeconomic data from GGDC [website](https://www.rug.nl/ggdc/).
+Download long-term macroeconomic data from GGDC [website](https://www.rug.nl/ggdc/).
 
 Installation
 ------------
