@@ -16,7 +16,14 @@
 #'
 #' }
 #'
-#' @param sheet a number from \code{1} to \code{5}.
+#'
+#' @note
+#'
+#' Except in sheet \code{2}, all data are relative prices, so the purchasing power parity (PPP) divided by the exchange rate. All relative prices are relative to the USA GDP price level, shown in sheet \code{1}. Labor productivity is defined as PPP-converted value added divided by the number of hours worked. PPPs used are those shown in sheet \code{1}.
+#'
+#' Number of hours worked is from the WIOD Socio-Economic Accounts, except for Argentina, Chile, and South Africa, where data on the number of persons engaged is from the 10-Sector Database and the Africa Sector Database. The average number of hours worked in South Africa is assumed to be equal to that in the USA in every sector. The average number of hours worked in Argentina and Chile is taken from PWT8.0 and assumed to be equal across sectors.
+#'
+#' @param sheet a number ranging from \code{1} to \code{5}.
 #'
 #' @importFrom rlang .data
 #' @importFrom magrittr %>%
@@ -24,7 +31,7 @@
 #'
 #' @references
 #'
-#' Robert Inklaar and Marcel P. Timmer (2014), \emph{"The Relative Price of Services"}, Review of Income and Wealth 60(4): 727-746, avaiable at: \url{https://onlinelibrary.wiley.com/doi/abs/10.1111/roiw.12012}.
+#' Robert Inklaar and Marcel P. Timmer (2014), \emph{"The Relative Price of Services"}, Review of Income and Wealth 60(4): 727-746, available at: \url{https://onlinelibrary.wiley.com/doi/abs/10.1111/roiw.12012}.
 #'
 #' @return A tidy \code{tibble}
 #'

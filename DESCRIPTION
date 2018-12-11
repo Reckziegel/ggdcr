@@ -4,8 +4,7 @@ Title: Downloads data from the Groningen Growth and Development Centre (GGDC)
 Version: 0.1.0
 Author: Bernardo Reckziegel
 Maintainer: Bernardo Reckziegel <bernardo_cse@hotmail.com>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Description: Get Long-Term Macroeconomic for Output, Prices, Capital Stocks, and Employment from GGDC.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
@@ -20,4 +19,10 @@ Imports:
     curl,
     forcats,
     readxl,
-    stringr
+    stringr,
+    lubridate
+Depends: 
+    R (>= 3.1)
+Suggests: 
+    spelling
+Language: en-US

@@ -9,7 +9,7 @@ maddison_project()
 \value{
 A tidy \code{tibble} containing 6 columns.
 
-The \code{key} column agregates:
+The \code{key} column agreggates:
 
 \itemize{
 
