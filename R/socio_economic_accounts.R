@@ -2,7 +2,6 @@
 #'
 #' The World Input-Output Database (WIOD) consists of a series of databases on output, prices, capital stocks, and employment. It covers 28 EU countries and 15 other major countries in the world for the period from 2000 to 2014.
 #'
-#'
 #' @return A tidy \code{tibble}.
 #'
 #' @references
