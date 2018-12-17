@@ -4,7 +4,7 @@
 #'
 #' This package intends to simplify the download and data minipulation from the tables avaiable at the GGDC website.
 #'
-#' @section \code{ggdcr} Functions:
+#' @section \code{ggdcr} functions are:
 #'
 #' \itemize{
 #'
